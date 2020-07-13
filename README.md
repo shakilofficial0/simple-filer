@@ -2,7 +2,7 @@
 
 This library allows you to send/receive files(even bigger than your computer memory allows) between 2 browsers(Chrome only at this moment). The file data go directly from browserA to browserB using the data channel of WebRTC as the underlying transport layer.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shakilofficial0/Heroku-CyberTOR)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shakilofficial0/simple-filer)
 
 # Install
 ```bash
