@@ -8352,7 +8352,7 @@ function removePeer(peer){
   $('#' + peer).closest("div.radio").remove()
 }
 
-var ws = new WebSocket('ws://127.0.0.1:8000');
+var ws = new WebSocket('ws://127.0.0.1:80');
 ws.onopen = evt => {
   filer.signalingChannel = ws;
   console.log('webSocket connected');
