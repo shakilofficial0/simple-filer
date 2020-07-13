@@ -1,0 +1,11 @@
+{
+	"name": "Alpha-HKK",
+	"description": "Run Alpha-HKK on heroku",
+	"repository": "https://github.com/shakilofficial0/simple-filer",
+	"keywords": ["Alpha-HKK"],
+  "buildpacks": [
+		{
+			"url": "heroku/nodejs"
+		}
+	]
+}
