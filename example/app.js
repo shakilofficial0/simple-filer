@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 var httpServer = require('http').createServer(app);
 // var httpsServer = require('https').createServer(credentials, app);
-httpServer.listen(8000);
+httpServer.listen(80);
 // httpsServer.listen(8443, function(){ console.log('server started on port: 8443.') });
 
 const WebSocket = require('ws');
